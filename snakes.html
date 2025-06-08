@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savannah</title>
+    <style>
+      body{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .savanna-container{
+        position:relative;
+        margin-top: 90px;
+        background-image: url(images/snakes\ banner.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 40px;
+        border-radius: 10px;
+        color: white;
+        overflow: hidden;
+      }
+      .savanna-container::before{
+        content: "";
+        position:absolute;
+        top: 0; left:0; 
+        width:100%; height:100%;
+        background: rgba(0, 0, 0, 0.4);
+        z-index:0;
+      }
+      .savanna-container *{
+        position:relative;
+        z-index: 1;
+      }
+      nav{
+        background-color: #2C5F2D;
+        padding: 15px;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+      }
+      nav a{
+        color: #F4E7D1;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px 15px;
+        margin: 0 10px;
+        display: inline-block;
+        transition: color 0.3s ease-in-out;
+      }
+      nav a:hover {
+        color: #F4A261;
+      }
+      .herbivores-section{
+        background-color: #F4E7D1;
+        padding: 30px;
+        margin-top:20px;
+      }
+      .conservation-section{
+        background-color: #FAFAFA;
+        padding:30px;
+      }
+      .conservation-section ul {
+        list-style-type: square;
+      }
+      img{
+        width:100%;
+        max-width: 500px;
+        border-radius: 8px;
+      }
+      img:hover{
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+      }
+      footer{
+        background-color: #1a470dfa;
+        color: #FFF8E1;
+        text-align: center;
+        padding: 25px 10px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        font-size: 1.1rem;
+        border-top: 3px solid #2C5F2D;
+        margin-top: 20px;
+      }
+     .footer-info{
+      font-size: 1.1rem;
+      padding-bottom: 10px;
+     }
+      .social-links a{
+      color:#FFF8E1;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+     }
+     .social-links a:hover{
+      color: #F4A261;
+     }
+    </style>
+  </head>
+  <body>
+    <header>
+ <nav>
+  <a href="index.html">Home</a>
+  <a href="animals_habitats.html">Animals and Habitats</a>
+  <a href="events_activities.html">Events and Activites</a>
+  <a href="about.html">About the Zoo</a>
+ </nav>
+</header>
+<div class="savanna-container">
+<h1> The Fascinating World Of Snakes</h1>
+<p>Slithering silently through forests, deserts, and wetlands, snakes are among the most adaptable and mysterious reptiles on Earth. With over 3,600 species, they range from the deadly Black Mamba to the harmless garden snake, each playing a vital role in their ecosystem.</p>
+<p>Unlike most reptiles, snakes have no limbs, relying on their muscular bodies to glide effortlessly across terrain. Their forked tongues help them sense their surroundings, while their flexible jaws allow them to swallow prey whole—sometimes larger than their own heads!</p>
+</div>
+<div class="herbivores-section">
+<h2>Our Reptiles</h2>
+<h3>Black Mamba</h3>
+<img src="images/black mamba profile.jpg" alt="Black Mamba">
+<p>The <b>Black Mamba</b> isone of the fastest and most venomous snakes in the world. Found in sub-Saharan Africa, it prefers savannas, rocky outcrops, and light woodlands</p>
+<ul>
+<li><b>Habitat:</b> Grasslands, woodlands and rocky areas.</li>
+<li><b>Diet:</b> Carnivorous - feeds on small mammals and birds.</li>
+<li><b>Behaviour:</b>Highly venomous, but sh - avoids confrontation unless threatened.</li>
+<li><b>Venom:</b>Neurotoxic, causing paralysis and respiratory failure if untreated.</li>
+</ul>
+<h3>Rattlesnake</h3>
+<img src="images/rattlesnake profile.jpg" alt="Rattlesnake">
+<p>Rattlesnakes are pit vipers known for their rattle, which warns predators. Found in North and South America, they thrive in deserts, forests, and grasslands</p>
+<ul>
+<li><b>Habitat:</b>Rocky areas, deserts and forests.</li>
+<li><b>Diet:</b> Carnivorous - feeds on rodents, lizards and birds.</li>
+<li><b>Behaviour:</b>Ambush predator, striking prey with venom.</li>
+<li><b>Venom:</b>Hemotoxic, causing tissue damage and blood clotting issues.</li>
+</ul>
+<h3>Green Viper</h3>
+<img src="images/green viper profile.jpg" alt="Green Viper">
+<p>The Green Viper is a venomous snake found in Asia and Africa, often in rainforests and dense vegetation</p>
+<ul>
+<li><b>Habitat:</b>Tropical forests, grasslands, and wetlands</li>
+<li><b>Diet:</b>Carnivorous—feeds on small mammals, birds, and reptiles</li>
+<li><b>Behaviour:</b>Nocturnal, using camouflage to ambush prey</li>
+<li><b>Venom:</b>Hemotoxic, affecting blood clotting and causing swelling</li>
+</ul>
+<h3>Coral Snake</h3>
+<img src="images/coral snake profile.jpg" alt="Coral Snake">
+<p>Coral snakes are highly venomous, known for their red, black, and yellow bands. Found in North and South America, they prefer forests and wetlands</p>
+<ul>
+<li><b>Habitat:</b>Tropical forests, wetlands, and scrublands</li>
+<li><b>Diet:</b>feeds on small snakes, lizards, and amphibians</li>
+<li><b>Behaviour:</b>Secretive, often burrowing under leaf litter</li>
+<li><b>Venom:</b>Neurotoxic, causing paralysis and respiratory failure</li>
+</ul>
+<h3>Chameleon</h3>
+<img src="images/chameleon profile.jpg" alt="Chameleon">
+<p>Chameleons are color-changing reptiles found in Africa, Madagascar, and parts of Asia.</p>
+<ul>
+<li><b>Habitat:</b>Rainforests, savannas, and deserts</li>
+<li><b>Diet:</b>Insectivorous, using their long, sticky tongue to catch prey</li>
+<li><b>Behaviour:</b>Solitary, using camouflage for defense</li>
+<li><b>Special Traits:</b>360° vision, prehensile tail, and color-changing skin</li>
+</ul>
+</div>
+<div class="conservation-section">
+<h2>Understanding Snakes: Myths vs. Reality</h2>
+<p>Snakes are often misunderstood, but they play a vital role in ecosystems by controlling rodent populations and maintaining balance in nature. Contrary to popular belief:<b>Not all snakes are venomous</b> - many are harmless and avoid humans.<b>Snakes don’t chase people</b> — they only strike when threatened.<b>They aren't aggressive by nature - </b>most prefer to retreat rather than fight</p>
+<h2>What To Do if You Find a Snake At Home</h2>
+<ul>
+<li>Keep your distance - never attempt to handle it unless trained.</li>
+<li>Identify escape routes—open doors or windows to guide it outside.</li>
+<li>Call a professional—contact local wildlife control or snake removal experts.</li>
+<li>Block off the area—use towels or barriers to prevent movement.</li>
+<li>Never provoke it—avoid sudden movements that may trigger defensive behavior</li>
+</ul>
+</div>
+<footer>
+   <div class="footer-info">
+     <p><strong>Game Drives:</strong> 5:00 - 18:00 | <strong>Night Drives:</strong> 19:00 - 21:00</p>
+     <p>© 2025 Evergreen Wildlife Park. All Rights Reserved.</p>
+   </div>
+   <div class="social-links">
+    <a href="https://facebook.com" target="_blank">Facebook</a>
+    <a href="https://instagram.com" target="_blank">Instagram</a>
+    <a href="mailto:info@evergreenpark.com">Contact Us</a>
+   </div>
+  </footer>
+  </body>
+</html>
